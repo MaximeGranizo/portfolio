@@ -1,0 +1,193 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+
+
+
+body {
+     height: 100vh;
+     width: 100%;
+     background:rgb(236, 228, 228);
+     font-family: DejaVu Sans Mono, monospace	;
+     min-width: 1000px; /*pas sur*/
+     }
+    
+
+.h1{
+    font-size: 5.5mm;
+    line-height: 55px
+}
+
+.navigation {
+    height: 70px;
+    width: 100%;
+    display: grid ;
+    grid-template-columns: 50px 10fr 5fr 5fr 5fr 5fr 5fr 5fr ;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "logo vide acceuil etudes projets_personnels carte CV contact";
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: auto ;
+    border: 0px;
+    grid-column-gap: 35px;
+    font-size: 5.5mm;
+    line-height: 70px; /* hauteur de ligne (identique) */
+
+    }
+
+
+.logo {
+    grid-area: logo;
+    height: 50px;
+    /*background-color: chocolate;*/
+    text-align: center;
+        }
+
+.Acceuil{
+    grid-area: acceuil;
+    /*background-color: rgb(42, 43, 9);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+    
+        }
+
+.lien{text-decoration:none;
+color: black;}
+
+
+
+.etudes{
+    grid-area: etudes;
+    /*background-color: rgb(0, 243, 243);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+            }
+.projets_personnels{
+    grid-area: projets_personnels; 
+    /*background-color: rgb(220, 20, 20);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+.carte{
+    grid-area: carte; 
+    /*background-color: rgb(220, 183, 20);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+.CV{
+    grid-area: CV; 
+    /*background-color: rgb(110, 220, 20);*/
+    height: 50px;
+
+}
+
+.Contact{
+    grid-area: contact; 
+    /*background-color: rgb(220, 20, 187);    height: 50px;*/
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+
+
+
+
+
+
+.container {
+    width: 100vw;
+    height:auto;
+    font-size: 4.75mm;
+    display: grid;
+    /*text-align: center;*/
+    border: .5fr;
+    /*gap: 3vw;*/
+    /*padding: border-box;*/
+    padding: 0;
+    margin: 0;
+    /*grid-column-gap: 10px;*/
+    grid-template-columns:  1fr 2fr 300px 1fr;
+    grid-template-rows: 100px 400px 100px;
+
+}
+
+.description{
+    grid-area: description; 
+    /*height: 400px;*/
+    /*width: 400px;*/
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.photo_profil{
+    grid-area: photo_profil; 
+    height: 40vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+
+}
+
+.footer {
+    background-color: #be8d54;
+    color: rgb(165, 197, 183);
+    height: 300px;
+    width:100wv;
+    padding: 0;
+    margin: 0 ;
+    
+    grid-row-start: 4;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end:5;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+    display: grid ;
+    grid-template-columns: 20px 1fr 1fr 1fr 40px ;
+    grid-template-rows: 15px 1fr 20px 
+    /*border-radius: 5px;*/
+    /*gap: 10px;*/
+    
+}
+ .retour{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    text-align: right;
+    line-height: 40px;
+    color: rgb(165, 197, 183);
+
+ }
+
+ .pub{
+    grid-column-start: 2;
+    grid-row-start: 8;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+    text-align: left;
+    line-height: 40px;
+ }
+
+ .resaux{
+    grid-column-start: 4;
+    margin: 0mm;
+    grid-row-start:3; 
+    text-align: right;
+
+ }
+
+
+ .description_contact{
+text-align:center;
+grid-column-start:1;
+grid-column-end:5;
+
+
+
+ }
