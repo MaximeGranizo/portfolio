@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+
+
+
+body {
+     height: 100vh;
+     width: 100%;
+     background:rgb(236, 228, 228);
+     font-family: DejaVu Sans Mono, monospace	;
+     grid-template-rows: 70px 100vh 60vh;
+     display: grid ;
+     }
+    
+
+.h1{
+    font-size: 5.5mm;
+    line-height: 55px;
+}
+
+.navigation {
+    grid-row: 1;
+    grid-column: 1;
+    height: 70px;
+    width: 100%;
+    display: grid ;
+    grid-template-columns: 50px 5fr 5fr 5fr 5fr 5fr 5fr 5fr ;
+    /*grid-template-rows: 1fr;*/
+    grid-template-areas:
+    "logo vide acceuil  etudes carte sustainability projets_personnels  CV contact";
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: auto ;
+    border: 0px;
+    /*padding-right: 18px;*/
+    /*border-right: 10px;*/
+    grid-column-gap: 35px;
+    font-size: 1.3vw;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+
+    line-height: 70px; /* hauteur de ligne (identique) */
+
+    }
+
+.logo {
+    grid-area: logo;
+    height: 50px;
+    /*background-color: chocolate;*/
+    text-align: center;
+        }
+
+.Acceuil{
+    grid-area: acceuil;
+    /*background-color: rgb(42, 43, 9);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+    
+        }
+
+.lien{text-decoration:none;
+color: black;}
+
+
+
+.etudes{
+    grid-area: etudes;
+    /*background-color: rgb(0, 243, 243);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+            }
+.projets_personnels{
+    grid-area: projets_personnels; 
+    /*background-color: rgb(220, 20, 20);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+.carte{
+    grid-area: carte; 
+    /*background-color: rgb(220, 183, 20);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+.sustainability{
+    grid-area: sustainability; 
+    /*background-color: rgb(220, 20, 20);*/
+    height: 50px;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+.CV{
+    grid-area: CV; 
+    /*background-color: rgb(110, 220, 20);*/
+    height: 50px;
+
+}
+
+.Contact{
+    grid-area: contact; 
+    /*background-color: rgb(220, 20, 187);    height: 50px;*/
+    white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+
+
+
+
+
+
+.container {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row: 1;
+    width: 100%;
+    height:100vh;
+    font-size: 1.5vw;
+    display: grid;
+    /*text-align: center;*/
+    /*gap: 3vw;*/
+    /*padding: border-box;*/
+    padding-left: 250px;
+    margin: 0;
+    /*grid-column-gap: 10px;*/
+    grid-template-columns:  1fr 1fr ;
+    grid-template-rows:  10vh 80vh 10vh;
+
+}
+
+.description{
+    /*grid-area: description; */
+    /*height: 400px;*/
+    /*width: 400px;*/
+    grid-column: 1;
+    grid-row: 2;
+    line-height: 10vh;
+    text-align: center;
+    padding:5px;
+    line-height: 10vh;
+}
+
+.photo_profil{
+    /*grid-area: photo_profil;*/ 
+    height: 40vh;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+}
+.langue{
+    grid-column: 3;
+    grid-row: 1;
+    text-align: left;
+    margin-right: 15px;
+} 
+.footer {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: #be8d54;
+    color: rgb(165, 197, 183);
+    height: 60vh;
+    width:100%;
+    padding: 0;
+    margin: 0 ;
+    
+    /*grid-row-start: 4;*/
+    /*grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end:5;*/
+    white-space: nowrap; /* interdiction de passer à la ligne */
+    display: grid ;
+    grid-template-columns: 20px 1fr 1fr 1fr 40px ;
+    grid-template-rows: 11px 0.3fr 0.1fr 20px 
+    /*border-radius: 5px;*/
+    /*gap: 10px;*/
+    
+}
+
+
+.navigation2{
+    line-height: 40px;
+    height: 25vh;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: left;
+    font-size: 3vh;
+}
+
+
+
+ .retour{
+    grid-column : 4;
+    grid-row: 6;
+    text-align: right;
+    line-height: 40px;
+ }
+
+ .pub{
+    grid-column-start: 8;
+    grid-row-start: 3;
+    white-space: nowrap; /* interdiction de passer à la ligne */
+    text-align: left;
+    line-height: 160px;
+ }
+
+ .resaux{
+    grid-column: 4;
+    grid-row: 2;
+    text-align: right;
+ }
+
+
+ .description_contact{
+    text-align:center;
+    grid-column-start:1;
+    grid-column-end:5;
+     }
+
+a:hover {
+        color: rgb(30, 65, 134);
+      }
+
+
+
+@media screen and (max-width: 1024px) {
+    #lien {
+      display: none;
+    }
+  }
