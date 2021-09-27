@@ -31,7 +31,7 @@ body {
     grid-template-columns: 50px 5fr 5fr 5fr 5fr 5fr 5fr 5fr ;
     /*grid-template-rows: 1fr;*/
     grid-template-areas:
-    "logo vide acceuil  etudes carte sustainability projets_personnels  CV contact";
+    "logo langue acceuil  etudes carte sustainability projets_personnels  CV contact";
     background-color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: auto ;
@@ -52,6 +52,16 @@ body {
     /*background-color: chocolate;*/
     text-align: center;
         }
+
+.langue{
+    /*grid-column: 3;
+    grid-row: 1;*/
+    grid-area: langue;
+    text-align: left;
+    margin-right: 15px;
+} 
+
+
 
 .Acceuil{
     grid-area: acceuil;
@@ -149,12 +159,7 @@ color: black;}
     grid-row: 2;
     text-align: left;
 }
-.langue{
-    grid-column: 3;
-    grid-row: 1;
-    text-align: left;
-    margin-right: 15px;
-} 
+
 .footer {
     grid-row: 3;
     grid-column-start: 1;
