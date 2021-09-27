@@ -28,7 +28,7 @@ body {
     height: 70px;
     width: 100%;
     display: grid ;
-    grid-template-columns: 50px 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ;
+    grid-template-columns: 50px 2fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ;
     /*grid-template-rows: 1fr;*/
     grid-template-areas:
     "logo vide langue acceuil  etudes carte sustainability projets_personnels  CV contact";
@@ -39,7 +39,7 @@ body {
     /*padding-right: 18px;*/
     /*border-right: 10px;*/
     grid-column-gap: 35px;
-    font-size: 1.3vw;
+    font-size: 1.25vw;
     white-space: nowrap; /* interdiction de passer à la ligne */
 
     line-height: 70px; /* hauteur de ligne (identique) */
