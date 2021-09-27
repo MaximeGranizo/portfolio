@@ -18,7 +18,7 @@ body {
 
 .h1{
     font-size: 5.5mm;
-    line-height: 5vh;
+    line-height: 4vh;
 }
 
 .navigation {
@@ -40,7 +40,6 @@ body {
     grid-column-gap: 35px;
     font-size: 1.25vw;
     white-space: nowrap; /* interdiction de passer à la ligne */
-
     line-height: 70px; /* hauteur de ligne (identique) */
 
     }
@@ -56,8 +55,8 @@ body {
     /*grid-column: 3;
     grid-row: 1;*/
     grid-area: langue;
-    text-align: left;
-    margin-right: 15px;
+    /*text-align: left;*/
+    /*margin-right: 15px;*/
 } 
 
 
@@ -131,7 +130,7 @@ color: black;}
     /*text-align: center;*/
     /*gap: 3vw;*/
     /*padding: border-box;*/
-    padding-left: 250px;
+    padding-left: 150px;
     margin: 0;
     /*grid-column-gap: 10px;*/
     grid-template-columns:  1fr 1fr ;
@@ -145,7 +144,7 @@ color: black;}
     /*width: 400px;*/
     grid-column: 1;
     grid-row: 2;
-    line-height: 9vh;
+    line-height: 7.75vh;
     text-align: center;
     padding:5px;
 }
@@ -156,6 +155,8 @@ color: black;}
     grid-column: 2;
     grid-row: 2;
     text-align: left;
+    padding:5px;
+
 }
 
 .footer {
