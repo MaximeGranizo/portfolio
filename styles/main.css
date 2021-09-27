@@ -28,10 +28,10 @@ body {
     height: 70px;
     width: 100%;
     display: grid ;
-    grid-template-columns: 50px 5fr 5fr 5fr 5fr 5fr 5fr 5fr ;
+    grid-template-columns: 50px 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ;
     /*grid-template-rows: 1fr;*/
     grid-template-areas:
-    "logo langue acceuil  etudes carte sustainability projets_personnels  CV contact";
+    "logo vide langue acceuil  etudes carte sustainability projets_personnels  CV contact";
     background-color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: auto ;
