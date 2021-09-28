@@ -236,4 +236,13 @@ a:hover {
     #lien {
       display: none;
     }
+    .description{
+        line-height: 4vh;
+
+
+    }
+
+
+
+
   }
