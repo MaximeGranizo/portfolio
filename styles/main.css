@@ -79,7 +79,8 @@ color: black;}
     /*background-color: rgb(0, 243, 243);*/
     height: 50px;
     white-space: nowrap; /* interdiction de passer à la ligne */
-            }
+        }
+
 .projets_personnels{
     grid-area: projets_personnels; 
     /*background-color: rgb(220, 20, 20);*/
@@ -93,6 +94,7 @@ color: black;}
     height: 50px;
     white-space: nowrap; /* interdiction de passer à la ligne */
 }
+
 .sustainability{
     grid-area: sustainability; 
     /*background-color: rgb(220, 20, 20);*/
@@ -112,7 +114,6 @@ color: black;}
     /*background-color: rgb(220, 20, 187);    height: 50px;*/
     white-space: nowrap; /* interdiction de passer à la ligne */
 }
-
 
 
 
@@ -238,10 +239,8 @@ a:hover {
     }
     .description{
         line-height: 4vh;
-
-
     }
-
+    .hi{ line-height: 5vh; }
 
 
 
