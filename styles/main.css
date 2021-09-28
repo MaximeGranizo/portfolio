@@ -238,9 +238,9 @@ a:hover {
       display: none;
     }
     .description{
-        line-height: 4vh;
+        line-height: 5vh;
     }
-    .h1{ line-height: 5vh; }
+    .h1{ line-height: 9vh; }
     .container {  height: 200vh;  }
 
 
