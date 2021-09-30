@@ -30,7 +30,7 @@ body {
     grid-template-columns: 50px 2fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr ;
     /*grid-template-rows: 1fr;*/
     grid-template-areas:
-    "logo vide langue acceuil  etudes carte sustainability projets_personnels  CV contact";
+    "logo vide langue acceuil  etudes International sustainability projets_personnels  CV contact";
     background-color: rgb(255, 255, 255);
     text-align: center;
     vertical-align: auto ;
@@ -88,8 +88,8 @@ color: black;}
     white-space: nowrap; /* interdiction de passer à la ligne */
 }
 
-.carte{
-    grid-area: carte; 
+.International{
+    grid-area: International; 
     /*background-color: rgb(220, 183, 20);*/
     height: 50px;
     white-space: nowrap; /* interdiction de passer à la ligne */
