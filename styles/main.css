@@ -222,6 +222,8 @@ color: black;}
 
 
  .description_contact{
+    padding-top: 50px;
+    padding-bottom: 20px;
     text-align:center;
     grid-column-start:1;
     grid-column-end:5;
