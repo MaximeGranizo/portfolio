@@ -231,8 +231,50 @@ color: black;}
      }
 
 .menu_deroulant{
-    grid-template-columns: 20px 1fr 1fr 40px ;
     grid-template-rows: 1fr  60px 60px 60px 1fr; 
+    display: grid ;
+    padding: 60px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fresk{
+    grid-row:1;
+    grid-column:2;
+    grid-template-columns:  1fr 1fr  ;
+    display: grid ;
+    padding: 60px;
+    line-height: 150px;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+
+.sully{
+    grid-row:2;
+    grid-column:2;
+    grid-template-columns:  1fr 1fr  ;
+    display: grid ;
+    padding: 60px;
+    line-height: 150px;
+    text-align: center;
+    padding-bottom: 0px;
+
+}
+
+.theatre{    
+    grid-row:3;
+    grid-column:2;
+    grid-template-columns: 1fr 1fr  ;
+    display: grid ;
+    padding: 60px;
+    padding-bottom: 0px;
+    line-height: 150px;
+    text-align: center;
+
+}
+.photo_desciption{    
+    grid-column:2;
 }
 
 a:hover {
