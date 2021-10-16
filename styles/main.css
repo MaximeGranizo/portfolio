@@ -244,21 +244,23 @@ color: black;}
     grid-template-columns:  1fr 1fr  ;
     display: grid ;
     padding: 60px;
-    line-height: 150px;
     text-align: center;
     padding-bottom: 0px;
 
 }
 
-.sully{
+.sulitest{
     grid-row:2;
     grid-column:2;
     grid-template-columns:  1fr 1fr  ;
     display: grid ;
     padding: 60px;
-    line-height: 150px;
     text-align: center;
     padding-bottom: 0px;
+
+}
+.description_titre{
+    grid-column:1;
 
 }
 
@@ -269,10 +271,23 @@ color: black;}
     display: grid ;
     padding: 60px;
     padding-bottom: 0px;
-    line-height: 150px;
     text-align: center;
 
 }
+.cordee{    
+    grid-row:4;
+    grid-column:2;
+    grid-template-columns: 1fr 1fr  ;
+    display: grid ;
+    padding: 60px;
+    padding-bottom: 0px;
+    text-align: center;
+
+}
+
+
+
+
 .photo_desciption{    
     grid-column:2;
 }
