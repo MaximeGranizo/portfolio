@@ -238,7 +238,7 @@ color: black;}
     line-height: 100px;
 }
 
-.fresk{
+.first{
     grid-row:1;
     grid-column:2;
     grid-template-columns:  1fr 1fr  ;
@@ -249,7 +249,7 @@ color: black;}
 
 }
 
-.sulitest{
+.second{
     grid-row:2;
     grid-column:2;
     grid-template-columns:  1fr 1fr  ;
@@ -264,7 +264,7 @@ color: black;}
 
 }
 
-.theatre{    
+.third{    
     grid-row:3;
     grid-column:2;
     grid-template-columns: 1fr 1fr  ;
@@ -272,9 +272,9 @@ color: black;}
     padding: 60px;
     padding-bottom: 0px;
     text-align: center;
-
 }
-.cordee{    
+
+.fourth{    
     grid-row:4;
     grid-column:2;
     grid-template-columns: 1fr 1fr  ;
@@ -282,7 +282,6 @@ color: black;}
     padding: 60px;
     padding-bottom: 0px;
     text-align: center;
-
 }
 
 
