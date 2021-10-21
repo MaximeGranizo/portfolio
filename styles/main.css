@@ -301,6 +301,8 @@ color: black;}
         line-height: 80px;
         text-decoration:none;
         color: black;
+        white-space: nowrap; /* interdiction de passer à la ligne */
+
     }
 
 
@@ -319,6 +321,6 @@ a:hover {
         line-height: 6.5vh;
     }
     .h1{ line-height: 18vh; }
-    .container {  height: 100vh;  }
+    .container {  height: 175vh;  }
 
   }
