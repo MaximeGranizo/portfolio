@@ -231,7 +231,7 @@ color: black;}
      }
 
 .menu_deroulant{
-    grid-template-rows: 1fr 400px 400px 400px 1fr; 
+    grid-template-rows: 1fr 400px 400px 400px 400px 400px; 
     grid-template-columns: 1fr;
     display: grid;
     padding: 60px;
