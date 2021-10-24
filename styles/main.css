@@ -8,7 +8,7 @@
 
 
 body {
-     height: 100vh;
+     height: 150vh;
      width: 100%;
      background:rgb(236, 228, 228);
      font-family: DejaVu Sans Mono, monospace	;
@@ -126,7 +126,7 @@ color: black;}
     grid-column-end: -1;
     grid-row: 1;
     width: 100%;
-    height:100vh;
+    height:140vh;
     font-size: 3.5vh;
     display: grid;
     /*text-align: center;*/
@@ -138,7 +138,7 @@ color: black;}
     margin: 0;
     /*grid-column-gap: 10px;*/
     grid-template-columns:  1fr 1fr;
-    grid-template-rows:  10vh 80vh 10vh;
+    grid-template-rows:  10vh 90vh 40vh 10vh;
 
 }
 
@@ -231,16 +231,19 @@ color: black;}
      }
 
 .menu_deroulant{
-    grid-template-rows: 1fr  60px 60px 60px 1fr; 
-    display: grid ;
+    grid-template-rows: 1fr 100px 400px 400px 400px 1fr; 
+    grid-template-columns: 1fr;
+    display: grid;
     padding: 60px;
     text-align: center;
-    line-height: 100px;
+    
+}
+.titre{
+    grid-row:1;
 }
 
 .first{
     grid-row:1;
-    grid-column:2;
     grid-template-columns:  1fr 1fr  ;
     display: grid ;
     padding: 60px;
@@ -250,8 +253,7 @@ color: black;}
 }
 
 .second{
-    grid-row:2;
-    grid-column:2;
+    grid-row:3;
     grid-template-columns:  1fr 1fr  ;
     display: grid ;
     padding: 60px;
@@ -259,14 +261,11 @@ color: black;}
     padding-bottom: 0px;
 
 }
-.description_titre{
-    grid-column:1;
 
-}
+
 
 .third{    
-    grid-row:3;
-    grid-column:2;
+    grid-row:4;
     grid-template-columns: 1fr 1fr  ;
     display: grid ;
     padding: 60px;
@@ -275,8 +274,7 @@ color: black;}
 }
 
 .fourth{    
-    grid-row:4;
-    grid-column:2;
+    grid-row:5;
     grid-template-columns: 1fr 1fr  ;
     display: grid ;
     padding: 60px;
@@ -284,7 +282,10 @@ color: black;}
     text-align: center;
 }
 
+.description_titre{
+    grid-column:1;
 
+}
 
 
 .photo_desciption{    
@@ -304,7 +305,14 @@ color: black;}
         white-space: nowrap; /* interdiction de passer à la ligne */
 
     }
+.pictures{
+    grid-row:3;
+    grid-column-start:0;
+    grid-column-end:2 ;
+    white-space: nowrap;
+    text-align: center;
 
+}
 
 
 a:hover {
@@ -321,6 +329,6 @@ a:hover {
         line-height: 6.5vh;
     }
     .h1{ line-height: 18vh; }
-    .container {  height: 145vh;  }
+    .container {  height: 150vh;  }
 
   }
