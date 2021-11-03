@@ -340,6 +340,7 @@ display: grid ;
 
 .description_titre{
     grid-column:1;
+    text-align: justify;
 }
 .description_titre_centre{
     grid-column:1/-1;
