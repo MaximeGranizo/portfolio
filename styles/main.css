@@ -247,7 +247,7 @@ display: grid ;
     line-height: 160px;
  }
 
- .resaux{
+ .medias{
     grid-column: 4;
     grid-row: 2;
     text-align: right;
@@ -347,7 +347,7 @@ display: grid ;
     text-align: justify;
 }
 
-.photo_desciption{    
+.photo_description{    
     grid-column:2;
 }
 
