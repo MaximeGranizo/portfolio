@@ -338,6 +338,20 @@ display: grid ;
     text-align: center;
 }
 
+
+.fifth{    
+    grid-row:6;
+    grid-template-columns: 1fr 1fr  ;
+    display: grid ;
+    padding: 60px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+
+
+
+
 .description_titre{
     grid-column:1;
     text-align: justify;
