@@ -279,7 +279,13 @@ display: grid ;
     
 }
 
-
+.menu_civic_engagment{
+    grid-template-rows: 1fr 400px 1000px 1500px 500px 500px 50px; 
+    grid-template-columns: 1fr;
+    display: grid;
+    padding: 60px;
+    text-align: center;
+}
 
 
 
