@@ -145,6 +145,7 @@ color: black;}
 .video{
 height:fit-content;
 text-align: center;
+margin: 0 auto;
 grid-column: 1/-1;
 grid-row:2;
 display: grid ;
@@ -278,7 +279,7 @@ display: grid ;
 }
 
 
-.container_cv {
+.container_center {
     width: 100%;
     height: auto;
     font-size: 3.5vh;
