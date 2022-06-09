@@ -744,7 +744,8 @@ var simplemaps_worldmap_mapdata={
     },
     "6": {
       lat: "41.90391199785386",
-      lng: "12.45225432538603"
+      lng: "12.45225432538603",
+      name: "Vatican"
     },
     paris: {
       name: "France",
