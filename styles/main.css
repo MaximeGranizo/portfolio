@@ -293,7 +293,7 @@ display: grid ;
     margin: 0;
     /*grid-column-gap: 10px;*/
     grid-template-columns:  1fr;
-    grid-template-rows:  70px 900px 500px 1500px 850px 800px 1100px 700px;
+    grid-template-rows:  70px 900px 500px 1500px 850px 800px 1100px 800px 1000px 700px;
 
 }
 
