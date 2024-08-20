@@ -747,36 +747,6 @@ var simplemaps_worldmap_mapdata={
       lng: "12.45225432538603",
       name: "Vatican"
     },
-    "7": {
-      lat: "50.824028",
-      lng: "10.204039",
-      name: "Germany"
-    },
-    "8": {
-      lat: "51.934827",
-      lng: "20.003844",
-      name: "Poland"
-    },
-    "9": {
-      lat: "48.210714",
-      lng: "16.331724",
-      name: "Vienna"
-    },
-    "10": {
-      lat: "49.926185",
-      lng: "14.865346",
-      name: "Czech Republic"
-    },
-    "11": {
-      lat: "46.790568",
-      lng: "8.074952",
-      name: "Switzerland"
-    },
-    "12": {
-      lat: "48.827205",
-      lng: "19.390730",
-      name: "Slovakia"
-    },
     paris: {
       name: "France",
       lat: "48.866666670",
